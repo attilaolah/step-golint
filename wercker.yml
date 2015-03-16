@@ -17,5 +17,4 @@ build:
         - script:
             name: prune
             code: |
-                rm -rf $WERCKER_ROOT/.git
-                rm $WERCKER_ROOT/.gitignore
+                rm -rf $WERCKER_ROOT/.git*
